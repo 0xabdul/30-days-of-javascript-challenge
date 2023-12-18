@@ -24,7 +24,7 @@ switch(true){
     }
 }
 // 2
-/*let month = prompt("enter the month name :")
+let month = prompt("enter the month name :")
 switch(month){
     case 'december':
     case 'january' :
