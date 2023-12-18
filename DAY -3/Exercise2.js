@@ -1,4 +1,4 @@
-/*console.log('exercise two >>');
+*console.log('exercise two >>');
 // height of the triangle and calculate an area of a triangle 
 let b = prompt('enter the base');
 let  h = prompt('enter the height');
