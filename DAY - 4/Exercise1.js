@@ -1,6 +1,6 @@
 console.log("Exercise one >>")
 // 1
-/*const age = prompt("Enter your age :");
+const age = prompt("Enter your age :");
 if(age > 18){
     alert("You are old enough to drive.");
 }
