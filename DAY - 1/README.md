@@ -1,6 +1,6 @@
 # 🔖  Day - 1 Challenges
 
-### Exercise one 💻
+## Exercise one 💻
 
    1. Write a single line comment which says, comments can make code readable
 
