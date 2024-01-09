@@ -16,7 +16,8 @@
     Create a map of countries and number of characters of a country
 
 
-## Exercises:Level 2  💻
+
+## Exercises: Level 2  💻
 
   1.Find a union b
   
@@ -25,7 +26,9 @@
   3.Find a with b
 
 
-## Exercises:Level 3  💻
+
+## Exercises: Level 3  💻
 
   1.How many languages are there in the countries object file.
+  
   2. *** Use the countries data to find the 10 most spoken languages
