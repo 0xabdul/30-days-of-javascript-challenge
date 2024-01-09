@@ -31,4 +31,4 @@
 
   1.How many languages are there in the countries object file.
   
-  2. *** Use the countries data to find the 10 most spoken languages
+2. *** Use the countries data to find the 10 most spoken languages
