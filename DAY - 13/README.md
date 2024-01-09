@@ -1,6 +1,6 @@
 # 🔖 Day - 13
 
-## Console Object Methods<br>
+## Console Object Methods<br><br>
 
 ## Exercises: Level 1 💻
 
@@ -9,7 +9,7 @@
 
 2.Display the countries object as a table
 
-3.Use console.group() to group logs<br>
+3.Use console.group() to group logs<br><br>
 
 
 ## Exercises: Level 2 💻
@@ -18,7 +18,7 @@
 
 2.Write a warning message using console.warn()
 
-3.Write an error message using console.error()<br>
+3.Write an error message using console.error()<br><br>
 
 
 ## Exercises: Level 3 💻
