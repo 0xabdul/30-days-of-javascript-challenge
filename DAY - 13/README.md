@@ -1,5 +1,5 @@
 # 🔖 Day - 13
 
-## Destructuring and Spreading
+## Console Object Methods
 
 ## Exercises: Level 1 💻
