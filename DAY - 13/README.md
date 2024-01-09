@@ -1,7 +1,7 @@
 # 🔖 Day - 13
 
 ## Console Object Methods
-
+<br>
 ## Exercises: Level 1 💻
 
 
@@ -11,7 +11,7 @@
 
 3.Use console.group() to group logs
 
-
+<br>
 ## Exercises: Level 2 💻
 
 1.0 > 2 * 10 use console.assert() 
@@ -20,7 +20,7 @@
 
 3.Write an error message using console.error()
 
-
+<br>
 ## Exercises: Level 3 💻
 
 1.Check the speed difference among the following loops: while, for, for of, forEach
