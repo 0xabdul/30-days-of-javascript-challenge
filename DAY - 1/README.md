@@ -1,6 +1,6 @@
 # 🔖 Day - 1 
 
-## Exercise one 💻
+## Exercise  💻
 
    1. Write a single line comment which says, comments can make code readable
 
