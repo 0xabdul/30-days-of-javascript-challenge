@@ -39,15 +39,18 @@
 
 
    1. Write a code which can give grades to students according to theirs scores:
+  
         <li>80-100, A</li>
         <li>70-89, B</li>
         <li>60-69, C</li>
         <li>50-59, D</li>
         <li>0-49, F</li>
-    Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
-        September, October or November, the season is Autumn.
-        December, January or February, the season is Winter.
-        March, April or May, the season is Spring
-        June, July or August, the season is Summer
-    Check if a day is weekend day or a working day. Your script will take day as an input.
+        
+2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+
+   <li>September, October or November, the season is Autumn.</li>
+   <li>December, January or February, the season is Winter.</li>
+   <li>March, April or May, the season is Spring</li>
+   <li>june, July or August, the season is Summer</li>
+    
 
