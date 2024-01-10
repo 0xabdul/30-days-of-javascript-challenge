@@ -1,93 +1,107 @@
-# Frontend Mentor - Blog preview card
+# 🔖 Day - 3
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+##  Booleans, Operators, Date<br><br>
 
-## Welcome! 👋
+## Exercises: Level 1 💻
 
-Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+2. Check if type of '10' is equal to 10
 
-## The challenge
+3. Check if parseInt('9.8') is equal to 10
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+4. Boolean value is either true or false.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+       Write three JavaScript statement which provide truthy value.
+       Write three JavaScript statement which provide falsy value.
 
-Your users should be able to:
+5. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
-- See hover and focus states for all interactive elements on the page
+       4 > 3
+       4 >= 3
+       4 < 3
+       4 <= 3
+       4 == 4
+       4 === 4
+       4 != 4
+       4 !== 4
+       4 != '4'
+       4 == '4'
+       4 === '4'
+       Find the length of python and jargon and make a falsy comparison statement.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+6. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 
-## Where to find everything
+       4 > 3 && 10 < 12
+       4 > 3 && 10 > 12
+       4 > 3 || 10 < 12
+       4 > 3 || 10 > 12
+       !(4 > 3)
+       !(4 < 3)
+       !(false)
+       !(4 > 3 && 10 < 12)
+       !(4 > 3 && 10 > 12)
+       !(4 === '4')
+       There is no 'on' in both dragon and python
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+7. Use the Date object to do the following activities
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+       What is the year today?
+       What is the month today as a number?
+       What is the date today?
+       What is the day today as a number?
+       What is the hours now?
+       What is the minutes now?
+       Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+## Exercises: Level 2 💻
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
-## Building your project
+2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+3. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
-## Deploying your project
+5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+6. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+7. Compare the slope of above two questions.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+8. Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
-## Create a custom `README.md`
+9. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+10. If the length of your name is greater than 7 say, your name is long else say your name is short.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+11. Compare your first name length and your family name length and you should get this output.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+12. Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
 
-## Submitting your solution
+13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+15. Create a human readable time format using the Date time object
+  
+        YYYY-MM-DD HH:mm
+        DD-MM-YYYY HH:mm
+        DD/MM/YYYY HH:mm
 
-## Sharing your solution
 
-There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+## Exercises: Level 3 💻
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
 
-## Got feedback for us?
+       YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+
