@@ -53,7 +53,7 @@
 
  24. Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 
- 25. Use repeat() method to print 30 Days Of JavaScript 2 times
+ 25. Use repeat() method to print 30 Days Of JavaScript 2 times<br><br>
 
 
 
@@ -91,7 +91,8 @@
         4 1 4 16 64
         5 1 5 25 125
 
-12. Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
+12. Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'<br><br>
+
 
 
 
