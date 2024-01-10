@@ -40,11 +40,11 @@
 
 1. Write a code which can give grades to students according to theirs scores:
   
-    <li>80-100, A</li>
-    <li>70-89, B</li>
-    <li>60-69, C</li>
-    <li>50-59, D</li>
-    <li>0-49, F</li>
+      <li>80-100, A</li>
+      <li>70-89, B</li>
+      <li>60-69, C</li>
+      <li>50-59, D</li>
+      <li>0-49, F</li>
         
 2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 
