@@ -38,7 +38,7 @@
    ## Exercises: Level 2 💻
 
 
-   1. Write a code which can give grades to students according to theirs scores:
+   1.Write a code which can give grades to students according to theirs scores:
   
       <li>80-100, A</li>
       <li>70-89, B</li>
