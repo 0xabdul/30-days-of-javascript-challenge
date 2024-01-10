@@ -42,9 +42,9 @@
         
    2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 
-    <li>September, October or November, the season is Autumn.</li>
-    <li>December, January or February, the season is Winter.</li>
-    <li>March, April or May, the season is Spring</li>
-    <li>june, July or August, the season is Summer</li>
+       September, October or November, the season is Autumn.
+       December, January or February, the season is Winter.
+       March, April or May, the season is Spring
+       june, July or August, the season is Summer
     
 
