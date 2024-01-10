@@ -1,93 +1,109 @@
-# Frontend Mentor - Blog preview card
+# 🔖 Day - 2
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+##  Data Types<br><br>
 
-## Welcome! 👋
+## Exercises: Level 1 💻
 
-Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+ 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+ 2. Print the string on the browser console using console.log()
 
-## The challenge
+ 3. Print the length of the string on the browser console using console.log()
+ 
+ 4. Change all the string characters to capital letters using toUpperCase() method
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+ 5. Change all the string characters to lowercase letters using toLowerCase() method
+ 
+ 6. Cut (slice) out the first word of the string using substr() or substring() method
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+ 7. Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+ 
+ 8. Check if the string contains a word Script using includes() method
 
-Your users should be able to:
+ 9. Split the string into an array using split() method
 
-- See hover and focus states for all interactive elements on the page
+ 10. Split the string 30 Days Of JavaScript at the space using split() method
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+ 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 
-## Where to find everything
+ 12.Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
+ 
+ 13. What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
+ 
+ 14.What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
+ 
+ 15. Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
+ 
+ 16. Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+ 17. Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+ 18. Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+ 19. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+ 20. Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+ 21. Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+ 
+ 22. Use endsWith() method with the string 30 Days Of JavaScript and make the result true
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+ 23. Use match() method to find all the a’s in 30 Days Of JavaScript
 
-## Building your project
+ 24. Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+ 25. Use repeat() method to print 30 Days Of JavaScript 2 times
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+## Exercises: Level 2 💻
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+ 1. Using console.log() print out the following statement:
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+        The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
 
-## Create a custom `README.md`
+ 2. Using console.log() print out the following quote by Mother Teresa:
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+        "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+ 3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+ 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 
-## Submitting your solution
+ 5. Check if 'on' is found in both python and jargon
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+ 6. I hope this course is not full of jargon. Check if jargon is in the sentence.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+ 7. Generate a random number between 0 and 100 inclusively.
 
-## Sharing your solution
+ 8. Generate a random number between 50 and 100 inclusively.
 
-There are multiple places you can share your solution:
+ 9. Generate a random number between 0 and 255 inclusively.
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+10. Access the 'JavaScript' string characters using a random number.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+11. Use console.log() and escape characters to print the following pattern.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+        1 1 1 1 1
+        2 1 2 4 8
+        3 1 3 9 27
+        4 1 4 16 64
+        5 1 5 25 125
 
-## Got feedback for us?
+12. Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+## Exercises: Level 3 💻
+
+
+1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
+
+2. Use match() to count the number of all because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+
+    const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+
+4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
