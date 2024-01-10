@@ -1,93 +1,140 @@
-# Frontend Mentor - Blog preview card
+# 🔖 Day - 7
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+##  Functions<br><br>
 
-## Welcome! 👋
+## Exercises: Level 1 💻
 
-Thanks for checking out this front-end coding challenge.
+1. Declare a function fullName and it print out your full name.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+2. Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+3. Declare a function addNumbers and it takes two two parameters and it returns sum.
 
-## The challenge
+4. An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle.
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+5. A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+6. A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism.
 
-Your users should be able to:
+7. Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
 
-- See hover and focus states for all interactive elements on the page
+8. Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+9. Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 
-## Where to find everything
+10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+11. Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+12. Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+13. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+14. Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 
-## Building your project
+15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+        console.log(findMax(0, 10, 5))
+        10
+        console.log(findMax(0, -10, -2))
+         0
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
+## Exercises: Level 2 💻
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+1. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+2. Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
 
-## Create a custom `README.md`
+3. Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+       showDateTime()
+       08/01/2020 04:08
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+5. Declare a function name swapValues. This function swaps value of x to y.
+ 
+       swapValues(3, 4) // x => 4, y=>3
+       swapValues(4, 5) // x = 5, y = 4
 
-## Submitting your solution
+6. Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+        console.log(reverseArray([1, 2, 3, 4, 5]))
+        //[5, 4, 3, 2, 1]
+        console.log(reverseArray(['A', 'B', 'C']))
+        //['C', 'B', 'A']
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
 
-## Sharing your solution
 
-There are multiple places you can share your solution:
+7. Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+8. Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+9. Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+10. Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 
-## Got feedback for us?
+11. Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+12. Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+13. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
-**Have fun building!** 🚀
+14. Write a function which takes any number of arguments and return the sum of the arguments
+
+15. Writ a function which generates a randomUserIp.
+
+16. Write a function which generates a randomMacAddress
+
+17. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+
+18. Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.<br><br>
+
+
+
+
+## Exercises: Level 3 💻
+
+1. Modify the userIdGenerator function. Declare a function name userIdGeneratedByUser. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+
+2. Write a function name rgbColorGenerator and it generates rgb colors.
+
+3. Write a function arrayOfHexaColors which return any number of hexadecimal colors in an array.
+
+4. Write a function arrayOfRgbColors which return any number of RGB colors in an array.
+
+5. Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
+
+6. Write a function convertRgbToHexa which converts rgb to hexa color and it returns an hexa color.
+
+7. Write a function generateColors which can generate any number of hexa or rgb colors.
+
+8. Call your function shuffleArray, it takes an array as a parameter and it returns a shuffled array
+
+9. Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+
+10. Call your function isEmpty, it takes a parameter and it checks if it is empty or not
+
+11. Call your function sum, it takes any number of arguments and it returns the sum.
+
+12. Write a function called sumOfArrayItems, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
+
+13. Write a function called average, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
+
+14. Write a function called modifyArray takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+
+15. Write a function called isPrime, which checks if a number is prime number.
+
+16. Write a functions which checks if all items are unique in the array.
+
+17. Write a function which checks if all the items of the array are the same data type.
+
+18. JavaScript variable name does not support special characters or symbols except $ or _. Write a function isValidVariable which check if a variable is valid or invalid variable.
+
+19. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+
+20. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
