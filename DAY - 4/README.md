@@ -38,9 +38,9 @@
    ## Exercises: Level 2 💻
 
 
-  1.Write a code which can give grades to students according to theirs scores:
+   1.Write a code which can give grades to students according to theirs scores:
         
-  2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+   2.Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 
     <li>September, October or November, the season is Autumn.</li>
     <li>December, January or February, the season is Winter.</li>
