@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Generator</title>
+<style>
+  .even {
+    color:blue;
+    font-size:2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;  
+}
+  
+  .odd {
+    color: red;
+    font-size:2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;  
+  }
+  
+  .prime {
+    color: green;
+    font-size:2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;  
+  }
+</style>
+</head>
+<body>
+<label for="inputValue">Enter a number:</label>
+<input type="number" id="inputValue" min="1" max="1000" step="1">
+<button onclick="generateNumbers()">Generate</button>
+<div id="numbers"></div>
+
+<script>
+function isPrime(num) {
+  if (num <= 1) return false;
+  if (num <= 3) return true;
+  if (num % 2 === 0 || num % 3 === 0) return false;
+  for (let i = 5; i * i <= num; i += 6) {
+    if (num % i === 0 || num % (i + 2) === 0) return false;
+  }
+  return true;
+}
+
+function generateNumbers() {
+  const inputValue = document.getElementById('inputValue').value;
+  const numbersContainer = document.getElementById('numbers');
+  
+  if (inputValue < 1 || inputValue > 1000) {
+    alert('Please enter a number between 1 and 1000.');
+    return;
+  }
+  
+  numbersContainer.innerHTML = '';
+  
+  for (let i = 1; i <= inputValue; i++) {
+    const span = document.createElement('span');
+    span.textContent = i;
+    if (i % 2 === 0) {
+      span.classList.add('even');
+    } else {
+      span.classList.add('odd');
+    }
+    if (isPrime(i)) {
+      span.classList.add('prime');
+    }
+    numbersContainer.appendChild(span);
+    numbersContainer.appendChild(document.createTextNode(' '));
+  }
+}
+</script>
+</body>
+</html>
