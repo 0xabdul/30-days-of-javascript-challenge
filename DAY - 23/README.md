@@ -1,4 +1,4 @@
-## Exercises<br>
+## Exercises ⚓ <br>
 
 ### Exercise: Level 1
 
